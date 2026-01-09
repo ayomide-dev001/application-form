@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="card">
+        <h1>Job Application</h1>
+        <form action="">
+          <div class="form-group">
+            <label for="name" class="visually-hidden">Full-Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter Name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email" class="visually-hidden">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone" class="visually-hidden">Phone-Number</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Phone-Number"
+            />
+          </div>
+        </form>
+
+        <button type="submit">Submit</button>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  border: 0;
+  clip-path: inset(50%);
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  background-color: #243b55;
+}
+
+.container {
+  width: 400px;
+  margin: 150px auto;
+}
+
+.card {
+  background-color: #141e30;
+  padding: 60px 50px;
+  text-align: center;
+  box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.4);
+}
+
+.card h1 {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.form-group input:focus {
+  outline: none;
+}
+
+.form-group input::placeholder {
+  font-size: 1rem;
+}
+
+button {
+  width: 50%;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #3e2f5b;
+  color: #fff;
+  font-size: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 350px;
+  }
+}
